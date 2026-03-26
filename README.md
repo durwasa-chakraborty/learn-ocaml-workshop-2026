@@ -2,15 +2,15 @@
 
 ### Introduction to Functional Programming in OCaml
 
-This workshop will teach participants the basics of programming in OCaml through
-a series of small exercises [developed from](https://github.com/kayceesrk/learn-ocaml-workshop-2024)
+This workshop will help learn the basics of programming in OCaml by solving a
+set of exercises [original source](https://github.com/kayceesrk/learn-ocaml-workshop-2024)
 
 Pre-requisites:
 - [Docker](https://docs.docker.com/get-started/get-docker/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 - [Git](https://git-scm.com/install)
 
-Instructions:
+Instructions for participants:
 1. Clone the repository with exercises with:
     `git clone  https://github.com/fplaunchpad/learn-ocaml-workshop-2026`
 
@@ -24,11 +24,23 @@ Instructions:
 
 6. A VS Studio Terminal instance should open with the `exercises` folder.
 
-7. Please navigate to each folder and run: `dune runtest`. The exercises
-   are set to indicate where failures occur as a prompt for you.
+7. Please navigate to each numbered folder containing an exercise and run:
+   `dune runtest`.
 
-   Look at error indicated for each `.ml` exercise. Open the `problem.ml` file
-   for that error and think of what can be done to fix it.
+   There are functions deliberately left incomplete for you to fill in. Before
+   you do this, `dune runtest` will indicate where the error originates.
+
+   After you successfully fill in the needed function, `dune runtest` will
+   **not** show any output. This means that you have passed all tests for that
+   problem successfully.
+
+   Look at the errors indicated for each exercise and open the corresponding
+   `problem.ml` file for look where the error can be.
+
+   All exercises (except the first) have a `.mli` file which show the types for
+   each function you are required to complete in order for the tests to pass.
+   Read through the definitions in the `.mli` file if you need to help thinking
+   through the types required to fill in functions in the `.ml` files.
 
 Have fun and please ask a tutor for help if you have problems with any of the
 above steps.

@@ -37,6 +37,26 @@ If you are not done with all the exercises by the time workshop ends, beginners
 are always welcome at [OCaml Discord Beginners channel](https://discord.gg/vS5NqRZy)
 for help, questions or explore what's happening in the OCaml world.
 
+#### Using GitHub Codespaces (no local setup required)
+
+If you have free tier credits available on your GitHub account, you can complete
+the workshop entirely in the browser — no Docker or local installation needed.
+
+1. Click the **Code** button at the top of this repository page.
+
+   ![Click the Code button](.github/assets/follow_through_1.png)
+
+2. Select the **Codespaces** tab, then click **Create codespace on main**.
+
+   ![Create codespace on main](.github/assets/follow_through_2.png)
+
+3. VS Code will launch in your browser with the full toolkit already installed —
+   you can dive straight into the exercises.
+
+> **Note:** GitHub Free accounts include 60 core-hours of Codespaces.
+> The workshop should fit comfortably within this limit.
+
+
 #### Useful Links:
 - [Library
   documentation](https://ocaml.janestreet.com/ocaml-core/v0.12/doc/base/Base/index.html)
